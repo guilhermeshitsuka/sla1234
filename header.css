@@ -2,5 +2,17 @@
     width: 24px;
     height: 24px; 
     background-image: url(Menu.svg);
-    display: inline-block;}
-.cabecalho__menu-hamburguer{background-color: white;}
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+
+.cabecalho{background-color: white;
+display: flex;
+justify-content: space-between;
+}
+
+.conteiner {diplay: flex;
+              align-items: center;}
+.conteiner__imagem { padding: 1em ;}
